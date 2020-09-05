@@ -1,0 +1,49 @@
+---
+Instructions: >
+  Greetings!
+  Welcome to python mortgage calculator.
+  Enter the below data, before execution. There are two sections. First is the information of the original mortgage plan
+  that you are having now. Second is the information of the refinancing plan that you are planing to change to.
+
+
+# Original Mortgage Plan
+Original Plan:
+  # The amount of loan
+  Loan : 400000
+  # Interest rate in percentage
+  Interest Rate : 3.5
+  # Loan term, number of months to pay off the load
+  Term : 360
+  # Escrow (Taxes + Insurance). It is paid every month
+  Escrow : 1000
+  # Optional payments
+  Optional Payments:
+    # If you pay an amount every month, put it here
+    Recurrent : 1500
+    # Custom payments for each month. Put them in month : value format
+    Custom:
+      1: 0
+      2: 0
+      10: 0
+
+# Refinancing Plan
+Refinance:
+  # Specify after how many month from starting the original plan, you want to refinance
+  Start : 48
+  # Interest rate in percentage
+  Interest Rate : 2.5
+  # Loan term, number of months to pay off the load
+  Term : 180
+  # Escrow (Taxes + Insurance). It is every month
+  Escrow : 1000
+  # Refinance fee (one time fee)
+  Fee : 3200
+  # Optional payments
+  Optional Payments:
+    # If you pay an amount every month, put it here
+    Recurrent : 1500
+    # Custom payments for each month. Put them in month : value format
+    Custom:
+      1: 0
+      2: 0
+      10: 0
